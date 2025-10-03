@@ -15,12 +15,12 @@ namespace Tyuiu.AroyanAV.Sprint1.Task6.V12.Lib
             prelw = words[words.Length - 2];
             if (lw == prelw)
             {
-                return false;
+                return true;
 
             }
             else
             {
-                return true;
+                return false;
             }
 
 
